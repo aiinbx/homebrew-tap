@@ -2,28 +2,28 @@
 class Aiinbx < Formula
   desc "Command-line interface for the AI Inbx email API"
   homepage "https://aiinbx.com"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/aiinbx/cli/releases/download/v0.3.0/aiinbx-darwin-arm64.tar.gz"
-      sha256 "b36109974066cd87b30596c317f2c69169e92e7fab9dafd0bd388f1df2ea79ed"
+      url "https://github.com/aiinbx/cli/releases/download/v0.4.0/aiinbx-darwin-arm64.tar.gz"
+      sha256 "6fa472427276eefd061723e8a36c440d7136c885cdc790f54989409a186df8ca"
     end
     on_intel do
-      url "https://github.com/aiinbx/cli/releases/download/v0.3.0/aiinbx-darwin-x64.tar.gz"
-      sha256 "860dbf9cf25d5bac7a6b8ee6b18542a074126a3470eb839eae4e9f47e21e295d"
+      url "https://github.com/aiinbx/cli/releases/download/v0.4.0/aiinbx-darwin-x64.tar.gz"
+      sha256 "cc8922c4c84b9ae2a343abbd17bfdcae65392513909b62dc96baa003d76da380"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/aiinbx/cli/releases/download/v0.3.0/aiinbx-linux-arm64.tar.gz"
-      sha256 "dd4056f1b65187dff8d5d84442a050c55957a48d34f4076f955570246458eb1f"
+      url "https://github.com/aiinbx/cli/releases/download/v0.4.0/aiinbx-linux-arm64.tar.gz"
+      sha256 "c57c793d9060e456c05bd8deb5c7370ae8e56d162b341952426dc73745d8b06a"
     end
     on_intel do
-      url "https://github.com/aiinbx/cli/releases/download/v0.3.0/aiinbx-linux-x64.tar.gz"
-      sha256 "f5cbefb562cb38c413b6ae7f5b9a846944c4dff43a97df5a70f6b23026682d2f"
+      url "https://github.com/aiinbx/cli/releases/download/v0.4.0/aiinbx-linux-x64.tar.gz"
+      sha256 "b84040a7e2caffee928c090cb97f5952d69227a23c040b9c3ac38cd40eeb3c11"
     end
   end
 
